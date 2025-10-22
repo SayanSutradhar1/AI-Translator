@@ -1,0 +1,47 @@
+# Python-specific ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+env/
+venv/
+.venv/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Editor/IDE specific ignores
+.vscode/
+.idea/
+*.swp
+*.bak
+*~
+.DS_Store
+
+# FastAPI/Uvicorn specific ignores
+.uvicorn_reload_log
+.pytest_cache/
+
+# Database files (if using SQLite or similar local databases)
+*.sqlite3
+*.db
+*.db-journal
+
+# Environment variables and sensitive data
+.env
+.flaskenv
+instance/
+
+# Logs and temporary files
+*.log
+tmp/
